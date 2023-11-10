@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  *, *::before, *::after {
+    @apply box-border m-0 p-0;
+  }
+  :root {
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    --first-sec-bg-img: url('https://images.unsplash.com/photo-1565182999561-18d7dc61c393?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjQxNDUyfQ&w=1920');
+    --fourth-sec-bg-img: url('https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/gihsg13plfsb8xfbzmlf/image-027');
+    --fifth-sec-bg-img: url('https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/nhcjbdzbycjvfcks0nqe/image-004');
+    --tenth-sec-bg-img: url('https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/skkve0aqzhkkyiytn92d/work-with-us');
+    --sec-bg-gd: rgba(0, 0, 0, 0.30);
+    --black: rgba(26,26,26);
+  } 
+  h1{
+    @apply text-h1;
+  }
+  h2{
+    @apply text-h2;
+  }
+  h1,h2,h3,h4,p{
+    margin-bottom: 1.666rem;
+  }
+  body {
+    @apply font-sans;
+  }
+}
+
