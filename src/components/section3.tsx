@@ -1,5 +1,5 @@
 import React from 'react'
-
+import macDesign from '../assets/mac-design.png'
 
 type CardProps = {
   src: string;
@@ -48,7 +48,7 @@ const Section3 = () => {
               ))
             }
           </div>
-          <img className='rounded-sm' src='https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/hqguvxyyi5jciyrzy35v/page-3'/>
+          <img className='w-[70%] self-center rounded-sm mix-blend-multiply' src={macDesign}/>
           <div className='flex flex-col md:flex-row items-stretch justify-start flex-nowrap p-[10px] mb-[10px]'>
             {
               [

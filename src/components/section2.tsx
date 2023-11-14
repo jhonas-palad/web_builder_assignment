@@ -5,7 +5,7 @@ import { HeaderContext, HeaderContextP } from './header'
 const Section2 = () => {
   const {hidden} = React.useContext(HeaderContext) as HeaderContextP
   return (
-    <section  className={`-mt-14 bg-[#525252] sticky w-full z-10 text-white ${hidden?'top-0': 'top-[9%]' } transition-all duration-150`}>
+    <section  className={`-mt-14 bg-[#525252] sticky w-full z-10 text-white ${hidden?'top-0': 'top-[90px]' } transition-all duration-150`}>
         <div className='p-3 h-[59px] relative flex text-left items-center justify-center'>
           <div className='basis-[75%]'>
             <SearchBar>
